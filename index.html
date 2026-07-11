@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Academy | Gamified Coding Bootcamp & Unlimited Placements</title>
+    <meta name="description" content="Tap Academy simplifies software training and employment through interactive visual learning, real-time code execution, and 100% placement assistance in Bangalore.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.30">
+</head>
+<body>
+    <!-- Top Notification Bar -->
+    <div class="top-banner">
+        <p>⚡ Next Interactive Batch starts on July 20th. Only 12 slots left! <a href="#booking-section" class="banner-link">Book Free Demo &rarr;</a></p>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo" id="header-logo">
+                <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logo-grad)" />
+                    <path d="M10 22V10L16 16L22 10V22" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 16V22" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="logo-grad" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FF8A00" />
+                            <stop offset="1" stop-color="#FF5C00" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="logo-text">TAP<span class="logo-highlight">ACADEMY</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#hero-section" class="nav-link">Home</a>
+                <a href="#dsa-simulator" class="nav-link">Visual Learning</a>
+                <a href="#courses-section" class="nav-link">Courses</a>
+                <a href="#playground-section" class="nav-link">Code Arena</a>
+                <a href="#placements-section" class="nav-link">Placements</a>
+                <a href="#faq-section" class="nav-link">FAQ</a>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle dark/light theme">
+                    <!-- Sun Icon (visible in dark mode) -->
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Moon Icon (visible in light mode) -->
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+
+                <button class="btn btn-secondary btn-sm" id="btn-login-trigger" style="margin-right: 8px;">Student Login</button>
+                <a href="#booking-section" class="btn btn-primary btn-sm" id="student-portal-btn">Book Demo</a>
+                <button class="menu-hamburger" id="menu-hamburger-btn" aria-label="Open Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+        <div class="mobile-nav-content">
+            <a href="#hero-section" class="mobile-nav-link">Home</a>
+            <a href="#dsa-simulator" class="mobile-nav-link">Visual Learning</a>
+            <a href="#courses-section" class="mobile-nav-link">Courses</a>
+            <a href="#playground-section" class="mobile-nav-link">Code Arena</a>
+            <a href="#placements-section" class="mobile-nav-link">Placements</a>
+            <a href="#faq-section" class="mobile-nav-link">FAQ</a>
+            <button class="btn btn-secondary mobile-cta" id="btn-mobile-login-trigger" style="margin-top: 16px; margin-bottom: 8px;">Student Login</button>
+            <a href="#booking-section" class="btn btn-primary mobile-cta" style="margin-top: 0;">Book Free Demo</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero-section">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🔥</span>
+                    <span class="badge-text">Bangalore's Leading IT Training Academy</span>
+                </div>
+                <h1 class="hero-title">
+                    Gamify Your <span class="gradient-text">Coding Journey</span> & Simplify Employment
+                </h1>
+                <p class="hero-subtitle">
+                    Learn Java, Python, and Data Analytics visually with interactive models. Build real-world products, practice in our coding arena, and secure your career with 100% unlimited placement assistance.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#booking-section" class="btn btn-primary btn-glow">Book A Free Demo Class</a>
+                    <a href="#dsa-simulator" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px; vertical-align: middle;">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        See Visual Learning
+                    </a>
+                </div>
+                
+                <!-- Live Stats Section -->
+                <div class="hero-stats" id="stats-counter-group">
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="21">0</h3>
+                        <span class="stat-suffix">LPA</span>
+                        <p class="stat-label">Highest Package Offered</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="4.8">0</h3>
+                        <span class="stat-suffix">LPA</span>
+                        <p class="stat-label">Average Placement Package</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="500">0</h3>
+                        <span class="stat-suffix">+</span>
+                        <p class="stat-label">Hiring Partners Active</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number" data-target="93">0</h3>
+                        <span class="stat-suffix">%</span>
+                        <p class="stat-label">Placement Success Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Placement Slider (One at a time, changes automatically) -->
+            <div class="hero-visual" style="flex-direction: column; gap: 12px;">
+                <!-- Google Rating Trust Indicator Above Slider -->
+                <div class="hero-stars-badge-above glass-card">
+                    <span class="stars-row-above">★★★★★</span>
+                    <span class="rating-text-above"><strong>4.9/5 Google Rating</strong> (10,000+ Reviews)</span>
+                </div>
+
+                <div class="hero-slider-container">
+                    <!-- Slide Track -->
+                    <div class="hero-slider-track" id="hero-slider-track">
+                        <!-- Slide 1 -->
+                        <div class="hero-slide">
+                            <div class="hero-student-card">
+                                <img src="assets/student_nikhil.jpg" alt="Nikhil K." class="hero-student-bg">
+                                <div class="hero-student-overlay">
+                                    <span class="p-company">Amazon (SDE-1)</span>
+                                    <h4>Nikhil K.</h4>
+                                    <p class="p-quote">"The interview practice sheets covering arrays and graphs were identical to what Amazon asked."</p>
+                                    <div class="p-stats">
+                                        <span class="p-stat-pkg">Package: 21.0 LPA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="hero-slide">
+                            <div class="hero-student-card">
+                                <img src="assets/student_preeti.jpg" alt="Preeti Rao" class="hero-student-bg">
+                                <div class="hero-student-overlay">
+                                    <span class="p-company">J.P. Morgan</span>
+                                    <h4>Preeti Rao</h4>
+                                    <p class="p-quote">"Coming from a non-CS background, writing code was scary. Mentors sat with me daily to solve doubts."</p>
+                                    <div class="p-stats">
+                                        <span class="p-stat-pkg">Package: 12.2 LPA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 3 -->
+                        <div class="hero-slide">
+                            <div class="hero-student-card">
+                                <img src="assets/student_siddharth.jpg" alt="Siddharth Deshmukh" class="hero-student-bg">
+                                <div class="hero-student-overlay">
+                                    <span class="p-company">Capgemini</span>
+                                    <h4>Siddharth Deshmukh</h4>
+                                    <p class="p-quote">"The visual representation of concepts like recursion and memory layouts completely cleared my doubts."</p>
+                                    <div class="p-stats">
+                                        <span class="p-stat-pkg">Package: 6.5 LPA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="hero-slide">
+                            <div class="hero-student-card">
+                                <img src="assets/student_ananya.jpg" alt="Ananya Sharma" class="hero-student-bg">
+                                <div class="hero-student-overlay">
+                                    <span class="p-company">Google</span>
+                                    <h4>Ananya Sharma</h4>
+                                    <p class="p-quote">"The simulated mock interviews and rigorous data structure tracking gave me the edge I needed."</p>
+                                    <div class="p-stats">
+                                        <span class="p-stat-pkg">Package: 28.5 LPA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 5 -->
+                        <div class="hero-slide">
+                            <div class="hero-student-card">
+                                <img src="assets/student_rahul.jpg" alt="Rahul Verma" class="hero-student-bg">
+                                <div class="hero-student-overlay">
+                                    <span class="p-company">Microsoft</span>
+                                    <h4>Rahul Verma</h4>
+                                    <p class="p-quote">"One-on-one debugging sessions with industry mentors helped me fix bugs in minutes instead of days."</p>
+                                    <div class="p-stats">
+                                        <span class="p-stat-pkg">Package: 18.0 LPA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slider Navigation Dots -->
+                    <div class="hero-slider-dots" id="hero-slider-dots">
+                        <span class="hero-dot active" data-slide="0"></span>
+                        <span class="hero-dot" data-slide="1"></span>
+                        <span class="hero-dot" data-slide="2"></span>
+                        <span class="hero-dot" data-slide="3"></span>
+                        <span class="hero-dot" data-slide="4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Learning Section (The USP Interactive DSA Simulator) -->
+    <section class="dsa-simulator" id="dsa-simulator">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">TAP EXCLUSIVE METRIC</span>
+                <h2 class="section-title">Augmented & Gamified Learning Simulator</h2>
+                <p class="section-subtitle">
+                    At Tap Academy, we don't just dump syntax. We animate concepts. Try our interactive visualizer below to see how our students grasp structures like arrays, stacks, and search algorithms in real time.
+                </p>
+            </div>
+
+            <div class="simulator-wrapper glass-card">
+                <!-- Visualizer Nav Tabs -->
+                <div class="sim-tabs">
+                    <button class="sim-tab active" data-sim="sort" id="tab-bubble-sort">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sim-tab-icon">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                        Bubble Sort Visualizer
+                    </button>
+                    <button class="sim-tab" data-sim="stack" id="tab-stack-ops">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="sim-tab-icon">
+                            <polyline points="4 17 12 21 20 17"></polyline>
+                            <polyline points="4 12 12 16 20 12"></polyline>
+                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                            <polyline points="8 6 12 2 16 6"></polyline>
+                        </svg>
+                        Stack (LIFO) Operations
+                    </button>
+                </div>
+
+                <div class="sim-body">
+                    <!-- Bubble Sort Pane -->
+                    <div class="sim-pane active" id="pane-sort">
+                        <div class="sim-controls">
+                            <button class="btn btn-secondary btn-sm" id="btn-sort-reset">Generate New Array</button>
+                            <button class="btn btn-primary btn-sm" id="btn-sort-start">Start Bubble Sort</button>
+                            <div class="speed-selector">
+                                <label for="sort-speed">Speed:</label>
+                                <select id="sort-speed" class="custom-select">
+                                    <option value="800">Slow</option>
+                                    <option value="400" selected>Normal</option>
+                                    <option value="150">Fast</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="visualizer-container" id="sort-bars-container">
+                            <!-- Bars will be generated by JavaScript dynamically -->
+                        </div>
+
+                        <div class="explanation-box" id="sort-explanation">
+                            <span class="info-icon">ℹ️</span> Click "Start Bubble Sort" to watch adjacent elements compare and bubble up to their correct sorted positions.
+                        </div>
+                    </div>
+
+                    <!-- Stack Pane -->
+                    <div class="sim-pane" id="pane-stack">
+                        <div class="sim-controls">
+                            <div class="input-group">
+                                <input type="number" id="stack-input" class="custom-input" min="1" max="99" placeholder="Val (1-99)">
+                                <button class="btn btn-primary btn-sm" id="btn-stack-push">Push Item</button>
+                            </div>
+                            <button class="btn btn-secondary btn-sm" id="btn-stack-pop">Pop Item</button>
+                            <button class="btn btn-outline btn-sm" id="btn-stack-clear">Clear Stack</button>
+                        </div>
+
+                        <div class="stack-layout">
+                            <div class="stack-visualizer-container">
+                                <div class="stack-border">
+                                    <div class="stack-items" id="stack-items-container">
+                                        <!-- Stack items will be added/removed by JavaScript -->
+                                        <div class="stack-empty-msg" id="stack-empty-msg">Stack is Empty (Max 6 Items)</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="stack-guide">
+                                <h4>Stack Concept (LIFO)</h4>
+                                <p>A Stack works on the principle of **Last In, First Out** (LIFO). The last element pushed is the first element popped.</p>
+                                <ul class="stack-ops-log">
+                                    <li>⚡ <strong>Push:</strong> Adds a new item to the top.</li>
+                                    <li>⚡ <strong>Pop:</strong> Removes the top item.</li>
+                                    <li>⚡ <strong>Peek:</strong> Views the top item without removing it.</li>
+                                </ul>
+                                <div class="log-console">
+                                    <div class="log-title">Operation Log:</div>
+                                    <div class="log-content" id="stack-log-console">
+                                        <div>Initializing stack environment... Ready.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Grid -->
+    <section class="why-choose-us" id="why-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">THE TAP ECOSYSTEM</span>
+                <h2 class="section-title">Designed for Accelerated Learning</h2>
+                <p class="section-subtitle">
+                    We've designed a modern technical ecosystem that guarantees you acquire deep engineering skills, not just rote memorized code.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass-card">
+                    <div class="feature-icon-wrapper cyan">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Interactive Smart Board & AR</h3>
+                    <p>Our trainers explain dry computer science structures using animated graphics and visualization aids to build long-term retention.</p>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <div class="feature-icon-wrapper orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Uncapped Placement Assistance</h3>
+                    <p>Get unlimited interview schedules with our 500+ corporate hiring partners. We conduct mock drives weekly until you land a job.</p>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <div class="feature-icon-wrapper green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                        </svg>
+                    </div>
+                    <h3>1:1 Mentor Support</h3>
+                    <p>Stuck on a tricky pointer error or database join? Get dedicated doubt-solving assistance directly from industry mentors daily.</p>
+                </div>
+
+                <div class="feature-card glass-card">
+                    <div class="feature-icon-wrapper purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Continuous Mock Grilling</h3>
+                    <p>Regular mock interview tests, technical checks, resume building workshops, and LinkedIn growth sessions prep you for high-paying roles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section" id="courses-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">JOB ASSURED PROGRAMS</span>
+                <h2 class="section-title">Our Specialized Career Tracks</h2>
+                <p class="section-subtitle">
+                    Select a specialization aligned with modern tech demands. Every track features placement eligibility from day one of graduation.
+                </p>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Java Full Stack Course -->
+                <div class="course-card glass-card">
+                    <div class="course-badge">Most Popular</div>
+                    <div class="course-header">
+                        <span class="course-icon java-icon">☕</span>
+                        <div class="course-title-meta">
+                            <h3>Java Full Stack Developer</h3>
+                            <p>Duration: 120 Days (Placement-Linked Course)</p>
+                        </div>
+                    </div>
+                    <div class="course-description">
+                        Become a complete enterprise-grade developer. Learn object-oriented programming, MVC architectures, web development, and database engineering.
+                    </div>
+                    <div class="course-features">
+                        <div class="c-feat"><span>✅</span> 5+ Mega Industry Projects</div>
+                        <div class="c-feat"><span>✅</span> Interactive Spring Boot & React Modules</div>
+                        <div class="c-feat"><span>✅</span> DSA & Leetcode Interview Mastery</div>
+                    </div>
+                    
+                    <!-- Expanding Syllabus Panel -->
+                    <div class="course-syllabus-dropdown" id="syllabus-java">
+                        <button class="btn-toggle-syllabus" onclick="toggleSyllabus('java')">
+                            <span>Show Curriculum Modules</span>
+                            <svg class="dropdown-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="syllabus-content">
+                            <ul class="syllabus-list">
+                                <li>📦 <strong>Module 1:</strong> Java Programming Basics & OOPs Concepts</li>
+                                <li>📦 <strong>Module 2:</strong> Data Structures & Algorithms Fundamentals</li>
+                                <li>📦 <strong>Module 3:</strong> SQL Databases, Relational Models & JDBC</li>
+                                <li>📦 <strong>Module 4:</strong> Web Technologies (HTML, CSS, Vanilla JS, React)</li>
+                                <li>📦 <strong>Module 5:</strong> Spring, Spring Boot, JPA & Microservices REST APIs</li>
+                                <li>📦 <strong>Module 6:</strong> CI/CD, Git, AWS Cloud Deployment & System Design</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="course-actions">
+                        <a href="#booking-section" class="btn btn-primary btn-sm">Enroll Now</a>
+                        <button class="btn btn-outline btn-sm btn-download-syllabus" data-course="Java Full Stack">Download Syllabus</button>
+                    </div>
+                </div>
+
+                <!-- Python Full Stack Course -->
+                <div class="course-card glass-card">
+                    <div class="course-header">
+                        <span class="course-icon python-icon">🐍</span>
+                        <div class="course-title-meta">
+                            <h3>Python Full Stack Developer</h3>
+                            <p>Duration: 120 Days (Placement-Linked Course)</p>
+                        </div>
+                    </div>
+                    <div class="course-description">
+                        Learn Python, Django, Flask, and dynamic front-end frameworks to build modern data-heavy web applications and micro-services.
+                    </div>
+                    <div class="course-features">
+                        <div class="c-feat"><span>✅</span> 4+ Full Scale Python Projects</div>
+                        <div class="c-feat"><span>✅</span> Django, Flask & REST Frameworks</div>
+                        <div class="c-feat"><span>✅</span> Front-End React/Redux Systems</div>
+                    </div>
+
+                    <!-- Expanding Syllabus Panel -->
+                    <div class="course-syllabus-dropdown" id="syllabus-python">
+                        <button class="btn-toggle-syllabus" onclick="toggleSyllabus('python')">
+                            <span>Show Curriculum Modules</span>
+                            <svg class="dropdown-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="syllabus-content">
+                            <ul class="syllabus-list">
+                                <li>📦 <strong>Module 1:</strong> Python Fundamentals & Functional Programming</li>
+                                <li>📦 <strong>Module 2:</strong> Data Structures & Algorithms in Python</li>
+                                <li>📦 <strong>Module 3:</strong> Database Systems (PostgreSQL, SQLite)</li>
+                                <li>📦 <strong>Module 4:</strong> Front-End Suite (HTML5, CSS3, Flexbox/Grid, JS, React)</li>
+                                <li>📦 <strong>Module 5:</strong> Django Framework, REST Framework & API Integrations</li>
+                                <li>📦 <strong>Module 6:</strong> Python Scripts Automation, Testing & Hosting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="course-actions">
+                        <a href="#booking-section" class="btn btn-primary btn-sm">Enroll Now</a>
+                        <button class="btn btn-outline btn-sm btn-download-syllabus" data-course="Python Full Stack">Download Syllabus</button>
+                    </div>
+                </div>
+
+                <!-- Data Analytics Course -->
+                <div class="course-card glass-card">
+                    <div class="course-badge badge-cyan">Trending</div>
+                    <div class="course-header">
+                        <span class="course-icon data-icon">📊</span>
+                        <div class="course-title-meta">
+                            <h3>Data Analytics & AI</h3>
+                            <p>Duration: 90 Days (Placement-Linked Course)</p>
+                        </div>
+                    </div>
+                    <div class="course-description">
+                        Acquire critical decision-making insights. Master SQL, Advanced Excel, Power BI, Tableau, Python Data Science libraries, and Generative AI.
+                    </div>
+                    <div class="course-features">
+                        <div class="c-feat"><span>✅</span> 10+ Data Visualisation Dashboards</div>
+                        <div class="c-feat"><span>✅</span> Machine Learning & Predictive Modeling</div>
+                        <div class="c-feat"><span>✅</span> AI Prompts & LLM App Development</div>
+                    </div>
+
+                    <!-- Expanding Syllabus Panel -->
+                    <div class="course-syllabus-dropdown" id="syllabus-data">
+                        <button class="btn-toggle-syllabus" onclick="toggleSyllabus('data')">
+                            <span>Show Curriculum Modules</span>
+                            <svg class="dropdown-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="syllabus-content">
+                            <ul class="syllabus-list">
+                                <li>📦 <strong>Module 1:</strong> Advanced Excel formulas, Pivot charts & Macros</li>
+                                <li>📦 <strong>Module 2:</strong> SQL querying, database indexing & optimization</li>
+                                <li>📦 <strong>Module 3:</strong> Power BI & Tableau Dashboard Creation</li>
+                                <li>📦 <strong>Module 4:</strong> Python Data Analysis (NumPy, Pandas, Matplotlib, Seaborn)</li>
+                                <li>📦 <strong>Module 5:</strong> Applied Machine Learning algorithms (Regression, Clustering)</li>
+                                <li>📦 <strong>Module 6:</strong> AI Fundamentals, OpenAI API integrations & Prompt Engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="course-actions">
+                        <a href="#booking-section" class="btn btn-primary btn-sm">Enroll Now</a>
+                        <button class="btn btn-outline btn-sm btn-download-syllabus" data-course="Data Analytics & AI">Download Syllabus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini Code Arena (Interactive playground component) -->
+    <section class="playground-section" id="playground-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">TEST YOUR SKILLS</span>
+                <h2 class="section-title">Integrated Code Arena</h2>
+                <p class="section-subtitle">
+                    Why wait to get started? Test your logic skills in our built-in browser-based coding sandbox. Write code, click run, and see your output instantly.
+                </p>
+            </div>
+
+            <div class="playground-grid glass-card">
+                <!-- Left: Editor Control and Code Input -->
+                <div class="editor-panel">
+                    <div class="editor-header">
+                        <div class="editor-title-meta">
+                            <span class="editor-indicator"></span>
+                            <h4>sandbox.js</h4>
+                        </div>
+                        <div class="editor-actions">
+                            <select id="code-presets" class="custom-select select-sm">
+                                <option value="hello">Hello World</option>
+                                <option value="factorial">Calculate Factorial</option>
+                                <option value="fibonacci">Fibonacci Sequence</option>
+                            </select>
+                            <button class="btn btn-primary btn-sm" id="btn-run-code">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 4px; vertical-align: middle;">
+                                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                </svg>
+                                Run Code
+                            </button>
+                        </div>
+                    </div>
+                    <div class="editor-workspace">
+                        <div class="line-numbers">
+                            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+                        </div>
+                        <textarea id="editor-textarea" spellcheck="false">// Interactive Code Playground
+function runDemo() {
+    let message = "Welcome to Tap Academy Code Arena!";
+    console.log(message);
+    
+    // Add simple calculation
+    let total = 0;
+    for(let i = 1; i <= 5; i++) {
+        total += i;
+        console.log("Current index: " + i + ", running sum: " + total);
+    }
+    
+    console.log("Final Sum (1 to 5): " + total);
+}
+
+runDemo();</textarea>
+                    </div>
+                </div>
+
+                <!-- Right: Console Output -->
+                <div class="console-panel">
+                    <div class="console-header">
+                        <h4>Console Output</h4>
+                        <button class="btn btn-outline btn-sm btn-clear" id="btn-clear-console">Clear</button>
+                    </div>
+                    <div class="console-output-box" id="console-output">
+                        <div class="console-line system-line">[System] Sandbox active. Write standard JavaScript code and press Run.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Placements Section -->
+    <section class="placements-section" id="placements-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">STUDENT SUCCESS PORTAL</span>
+                <h2 class="section-title">Where Our Students Work</h2>
+                <p class="section-subtitle">
+                    Our dedicated placement cell works day and night to build relationships with recruiters. We facilitate drives almost daily.
+                </p>
+            </div>
+
+            <!-- Hiring Partners Infinite Ticker -->
+            <div class="partners-ticker-container">
+                <div class="ticker-track">
+                    <!-- Set 1 -->
+                    <div class="ticker-logo"><span>Amazon</span></div>
+                    <div class="ticker-logo"><span>Capgemini</span></div>
+                    <div class="ticker-logo"><span>Accenture</span></div>
+                    <div class="ticker-logo"><span>TCS</span></div>
+                    <div class="ticker-logo"><span>Cognizant</span></div>
+                    <div class="ticker-logo"><span>Wipro</span></div>
+                    <div class="ticker-logo"><span>Infosys</span></div>
+                    <div class="ticker-logo"><span>J.P. Morgan</span></div>
+                    <div class="ticker-logo"><span>Dell</span></div>
+                    <!-- Set 2 (for infinite scroll effect) -->
+                    <div class="ticker-logo"><span>Amazon</span></div>
+                    <div class="ticker-logo"><span>Capgemini</span></div>
+                    <div class="ticker-logo"><span>Accenture</span></div>
+                    <div class="ticker-logo"><span>TCS</span></div>
+                    <div class="ticker-logo"><span>Cognizant</span></div>
+                    <div class="ticker-logo"><span>Wipro</span></div>
+                    <div class="ticker-logo"><span>Infosys</span></div>
+                    <div class="ticker-logo"><span>J.P. Morgan</span></div>
+                    <div class="ticker-logo"><span>Dell</span></div>
+                </div>
+            </div>
+
+            <!-- Testimonials Grid/Slider -->
+            <div class="testimonials-slider-wrapper">
+                <div class="testimonials-grid" id="testimonials-container">
+                    <div class="testimonial-card glass-card">
+                        <div class="student-profile">
+                            <img src="assets/student_siddharth.jpg" alt="Siddharth Deshmukh" class="avatar-img">
+                            <div class="student-meta">
+                                <h4>Siddharth Deshmukh</h4>
+                                <p class="placed-at">Placed at: Capgemini</p>
+                            </div>
+                            <div class="salary-badge">6.5 LPA</div>
+                        </div>
+                        <p class="quote">
+                            "The visual representation of concepts like recursion and memory layouts completely cleared my doubts. In college, DSA felt like a chore, but Tap Academy made it feel like a puzzle. Got placed in my second attempt!"
+                        </p>
+                    </div>
+
+                    <div class="testimonial-card glass-card">
+                        <div class="student-profile">
+                            <img src="assets/student_preeti.jpg" alt="Preeti Rao" class="avatar-img">
+                            <div class="student-meta">
+                                <h4>Preeti Rao</h4>
+                                <p class="placed-at">Placed at: J.P. Morgan</p>
+                            </div>
+                            <div class="salary-badge">12.2 LPA</div>
+                        </div>
+                        <p class="quote">
+                            "Coming from a non-CS background, writing code was scary. The mentors at Tap sat with me for hours fixing minor errors. The unlimited mock interviews completely removed my nervousness."
+                        </p>
+                    </div>
+
+                    <div class="testimonial-card glass-card">
+                        <div class="student-profile">
+                            <img src="assets/student_nikhil.jpg" alt="Nikhil K." class="avatar-img">
+                            <div class="student-meta">
+                                <h4>Nikhil K.</h4>
+                                <p class="placed-at">Placed at: Amazon (SDE-1)</p>
+                            </div>
+                            <div class="salary-badge">21.0 LPA</div>
+                        </div>
+                        <p class="quote">
+                            "I practiced constantly on the coding arena. The interview practice sheets covering arrays and graphs were identical to what Amazon asked. Tap gave me the opportunity that changed my career path."
+                        </p>
+                    </div>
+                </div>
+                <div class="slider-dots" id="testimonial-dots" style="display: flex; justify-content: center; gap: 8px; margin-top: 20px;">
+                    <span class="dot-indicator active" data-index="0"></span>
+                    <span class="dot-indicator" data-index="1"></span>
+                    <span class="dot-indicator" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Funnel (Lead Generation Wizard) -->
+    <section class="booking-section" id="booking-section">
+        <div class="booking-bg-shape"></div>
+        <div class="container booking-container">
+            <div class="booking-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">⏳</span>
+                    <span class="badge-text">LIMITED SEATS REMAINING</span>
+                </div>
+                <h2>Secure Your Slot for the next Free Demo Session</h2>
+                <p>
+                    Experience our Visual Smart Board training style live. Participate in interactive coding exercises and discuss career plans with senior mentors.
+                </p>
+                <div class="booking-pros">
+                    <div class="pro-item"><span>🚀</span> Live 2-Hour Coding Session</div>
+                    <div class="pro-item"><span>🚀</span> Placement Syllabus & Roadmaps Guide</div>
+                    <div class="pro-item"><span>🚀</span> Free Access to basic Java & Python LMS (3 Days)</div>
+                </div>
+            </div>
+
+            <!-- Interactive Multi-Step Form Card -->
+            <div class="booking-form-wrapper glass-card">
+                <div class="form-steps-indicator">
+                    <span class="step-dot active" data-step="1">1</span>
+                    <span class="step-line"></span>
+                    <span class="step-dot" data-step="2">2</span>
+                    <span class="step-line"></span>
+                    <span class="step-dot" data-step="3">3</span>
+                </div>
+
+                <form id="booking-wizard-form" onsubmit="return false;">
+                    <!-- Step 1: Personal Details -->
+                    <div class="form-step active" id="form-step-1">
+                        <h3>Personal Details</h3>
+                        <p class="step-desc">Provide your contact info to receive the session link.</p>
+                        
+                        <div class="form-group">
+                            <label for="input-name">Full Name *</label>
+                            <input type="text" id="input-name" class="custom-input" placeholder="e.g. Rahul Sharma" required>
+                            <span class="error-msg" id="err-name"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="input-email">Email Address *</label>
+                            <input type="email" id="input-email" class="custom-input" placeholder="e.g. rahul@gmail.com" required>
+                            <span class="error-msg" id="err-email"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-phone">Phone Number *</label>
+                            <input type="tel" id="input-phone" class="custom-input" placeholder="e.g. 9876543210" pattern="[0-9]{10}" required>
+                            <span class="error-msg" id="err-phone"></span>
+                        </div>
+
+                        <button class="btn btn-primary btn-block btn-next" type="button" onclick="goToStep(2)">Next: Academic Info &rarr;</button>
+                    </div>
+
+                    <!-- Step 2: Academic Info -->
+                    <div class="form-step" id="form-step-2">
+                        <h3>Academic & Career Info</h3>
+                        <p class="step-desc">Help us understand your current career standing.</p>
+
+                        <div class="form-group">
+                            <label>Current Status *</label>
+                            <div class="radio-options">
+                                <label class="radio-card">
+                                    <input type="radio" name="academic-status" value="Student" checked>
+                                    <span>College Student (CS/IT)</span>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="academic-status" value="Non-CS Student">
+                                    <span>College Student (Non-CS)</span>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="academic-status" value="Graduate">
+                                    <span>Recent Graduate / Unemployed</span>
+                                </label>
+                                <label class="radio-card">
+                                    <input type="radio" name="academic-status" value="Professional">
+                                    <span>Working Professional</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="input-graduation">Year of Graduation *</label>
+                            <select id="input-graduation" class="custom-select">
+                                <option value="2027">2027 (Ongoing)</option>
+                                <option value="2026" selected>2026 (Ongoing / Fresh)</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023 or earlier</option>
+                            </select>
+                        </div>
+
+                        <div class="form-btn-row">
+                            <button class="btn btn-secondary" type="button" onclick="goToStep(1)">&larr; Back</button>
+                            <button class="btn btn-primary btn-next" type="button" onclick="goToStep(3)">Next: Select Course &rarr;</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Preferred Track -->
+                    <div class="form-step" id="form-step-3">
+                        <h3>Course & Batch Choice</h3>
+                        <p class="step-desc">Pick your desired learning track and slot.</p>
+
+                        <div class="form-group">
+                            <label for="select-course">Select Core Program Path *</label>
+                            <select id="select-course" class="custom-select">
+                                <option value="java">Java Full Stack Developer (120 Days)</option>
+                                <option value="python">Python Full Stack Developer (120 Days)</option>
+                                <option value="data">Data Analytics & AI (90 Days)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-slot">Preferred Demo Batch *</label>
+                            <select id="select-slot" class="custom-select">
+                                <option value="20-jul-10am">Monday, July 20th - 10:00 AM (Online)</option>
+                                <option value="20-jul-04pm">Monday, July 20th - 04:00 PM (Online)</option>
+                                <option value="22-jul-11am">Wednesday, July 22nd - 11:00 AM (Bangalore Campus)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="agree-terms" checked>
+                                <span>I agree to receive communications, workshop link, and placement syllabus.</span>
+                            </label>
+                            <span class="error-msg" id="err-terms"></span>
+                        </div>
+
+                        <div class="form-btn-row">
+                            <button class="btn btn-secondary" type="button" onclick="goToStep(2)">&larr; Back</button>
+                            <button class="btn btn-primary btn-glow" type="button" onclick="submitBookingForm()">Complete Booking 🎉</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Success Screen -->
+                    <div class="form-step success-step" id="form-step-success">
+                        <div class="success-icon-box">
+                            <svg class="success-checkmark" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="30" fill="var(--accent-secondary)" fill-opacity="0.1" stroke="var(--accent-secondary)" stroke-width="4"/>
+                                <path d="M20 32L28 40L44 24" stroke="var(--accent-secondary)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Booking Confirmed!</h3>
+                        <p class="success-msg">
+                            Hi <strong id="success-student-name">Rahul</strong>, we've registered your slot for the <span id="success-course">Java Full Stack</span> demo. A calendar invite and WhatsApp confirmation has been dispatched.
+                        </p>
+                        <div class="success-details-box">
+                            <p>📅 <strong>Schedule:</strong> <span id="success-time">Monday, July 20th at 10:00 AM</span></p>
+                            <p>📍 <strong>Location:</strong> Session link sent to <span id="success-email">rahul@gmail.com</span></p>
+                        </div>
+                        <button class="btn btn-primary btn-block" type="button" onclick="resetBookingForm()">Book Another Seat</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">YOUR QUESTIONS ANSWERED</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">
+                    Clear answers to help you make an informed decision about your career pivot.
+                </p>
+            </div>
+
+            <div class="faq-accordion-group">
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>Who is eligible to join Tap Academy programs?</span>
+                        <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Any graduate or college student (final year or completed) from B.E, B.Tech, BCA, MCA, B.Sc, or equivalent streams is eligible. No prior coding experience is required. We start coding concepts entirely from scratch.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>How does Tap Academy guarantee unlimited placements?</span>
+                        <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We have a dedicated Corporate Relations cell. Once you clear our course completion criteria (minimum attendance and mock clearances), you gain placement eligibility. You will be scheduled for continuous recruitment drives (across our 500+ partners) until you successfully secure an offer.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>What is this "Visual Smart Board & AR" learning methodology?</span>
+                        <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Instead of reading text logs or blackboards, our classrooms use visual layouts, animations, and graphics to demonstrate concepts. For instance, instead of just reading code for sorting an array, you see visual colored blocks swapping places and indices traversing through memory. This makes logical coding concepts highly intuitive.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-trigger">
+                        <span>Are classes held online or offline at the campus?</span>
+                        <svg class="faq-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We provide hybrid choices! You can choose fully interactive online batches with daily live mentor sessions or enroll in our physical classrooms located in BTM Layout, Bangalore, where you get face-to-face mentorship and lab facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <!-- Footer Info Column -->
+            <div class="footer-info">
+                <a href="#" class="logo">
+                    <svg class="logo-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#logo-grad-foot)" />
+                        <path d="M10 22V10L16 16L22 10V22" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 16V22" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                        <defs>
+                            <linearGradient id="logo-grad-foot" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FF8A00" />
+                                <stop offset="1" stop-color="#FF5C00" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">TAP<span class="logo-highlight">ACADEMY</span></span>
+                </a>
+                <p class="footer-desc">
+                    Accelerating tech careers through visualizations, simulation platforms, and direct industry recruitment partnerships.
+                </p>
+                <div class="social-links">
+                    <a href="https://youtube.com" aria-label="YouTube" class="social-icon">YT</a>
+                    <a href="https://linkedin.com" aria-label="LinkedIn" class="social-icon">LN</a>
+                    <a href="https://instagram.com" aria-label="Instagram" class="social-icon">IG</a>
+                    <a href="https://github.com" aria-label="GitHub" class="social-icon">GH</a>
+                </div>
+            </div>
+
+            <!-- Footer Links Column 1: Courses -->
+            <div class="footer-links-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="#courses-section">Java Full Stack Dev</a></li>
+                    <li><a href="#courses-section">Python Full Stack Dev</a></li>
+                    <li><a href="#courses-section">Data Analytics & AI</a></li>
+                    <li><a href="#dsa-simulator">Visual Coding Basics</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Links Column 2: Resources -->
+            <div class="footer-links-col">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#dsa-simulator">DSA Visualizer</a></li>
+                    <li><a href="#playground-section">Code Arena</a></li>
+                    <li><a href="#placements-section">Hiring Partners</a></li>
+                    <li><a href="#booking-section">Free Demo Session</a></li>
+                </ul>
+            </div>
+
+            <!-- Footer Contact Column -->
+            <div class="footer-contact-info">
+                <h4>Head Office</h4>
+                <p class="contact-detail">📍 4, Outer Ring Rd, near McDonald's, BTM 2nd Stage, Kuvempu Nagar, BTM Layout, Bengaluru, Karnataka 560076</p>
+                <p class="contact-detail">✉️ info@thetapacademy.com</p>
+                <p class="contact-detail">📞 08069878321</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Tap Academy Clone. Built as a premium interactive concept representation.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Syllabus Modal (Simulated Downloads) -->
+    <div class="modal" id="syllabus-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close-btn" id="btn-close-modal">&times;</button>
+            <div class="modal-icon">📄</div>
+            <h3 id="modal-title">Downloading Java Full Stack Syllabus...</h3>
+            <p>Please enter your email to receive the direct download link and placement curriculum guidelines.</p>
+            
+            <form id="modal-download-form" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="modal-email">Email Address</label>
+                    <input type="email" id="modal-email" class="custom-input" placeholder="e.g. rahul@gmail.com" required>
+                </div>
+                <button class="btn btn-primary btn-block" type="button" id="btn-submit-download">Get Syllabus Now &darr;</button>
+            </form>
+
+            <div class="download-progress-bar" id="download-progress-container" style="display: none;">
+                <div class="progress-track">
+                    <div class="progress-fill" id="download-progress-fill"></div>
+                </div>
+                <p class="progress-status" id="download-progress-status">Preparing file...</p>
+            </div>
+            
+            <div class="success-state" id="modal-success-state" style="display: none;">
+                <span class="success-icon">🎉</span>
+                <h4>Syllabus Sent!</h4>
+                <p>Check your email for the detailed module guide, schedule options, and interview prep guides.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close-btn" id="btn-close-login-modal">&times;</button>
+            <div class="modal-icon">🔐</div>
+            <h3>Student Portal Login</h3>
+            <p>Access your gamified LMS dashboard, coding arena, and placement drive portal.</p>
+            
+            <form id="modal-login-form" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="login-email">Email or Student ID</label>
+                    <input type="text" id="login-email" class="custom-input" placeholder="e.g. tap-10294 or rahul@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" class="custom-input" placeholder="••••••••" required>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 0.8rem; width: 100%;">
+                    <label style="display: flex; align-items: center; gap: 6px; cursor: pointer; color: var(--text-muted);">
+                        <input type="checkbox" id="login-remember" checked style="accent-color: var(--accent-primary);"> Remember me
+                    </label>
+                    <a href="#" style="color: var(--accent-primary); font-weight: 600;">Forgot Password?</a>
+                </div>
+                <button class="btn btn-primary btn-block" type="button" id="btn-submit-login">Sign In &rarr;</button>
+            </form>
+
+            <div class="download-progress-bar" id="login-progress-container" style="display: none;">
+                <div class="progress-track">
+                    <div class="progress-fill" id="login-progress-fill"></div>
+                </div>
+                <p class="progress-status" id="login-progress-status">Verifying credentials...</p>
+            </div>
+            
+            <div class="success-state" id="login-success-state" style="display: none;">
+                <span class="success-icon">🔑</span>
+                <h4>Welcome Back, Student!</h4>
+                <p class="success-msg">Login successful. Redirecting to your interactive learning dashboard...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Script -->
+    <script src="script.js?v=1.2"></script>
+</body>
+</html>
